@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .container{
+            margin: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Form Pendaftaran Anggota Karang Taruna</h1>
+    <div class="container">
+        <form action="/action_page.php">
+            <div class="username">
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" value="zheand"><br>
+            </div><br>
+            <div class="email">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" value="zheand@gmail.com"><br>
+            </div><br>
+            <div class="password">
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" value="1723981237129"><br>
+            </div><br>
+            <div class="fullname">
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" value="Zheand Rizky Pranasyach"><br>
+            </div><br>
+            <div class="age">
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age" min="1" max="99" value="12"><br>
+            </div><br>
+            <div class="birthday">
+                <label for="birthday">Birthday:</label><br>
+                <input type="date" id="birthday" name="birthday"><br>
+            </div><br>
+            <div class="foto">
+                <label for="Foto">Foto:</label><br>
+                <input type="file" src="" alt="foto" width="48" height="48"><br>
+            </div><br>
+            <div class="radio">
+                <label for="html">Jenis Kelamin:</label><br>
+                <input type="radio" id="html" name="fav_language" value="Laki-laki">
+                <label for="html">Laki-laki</label><br>
+                <input type="radio" id="html" name="fav_language" value="Perempuan">
+                <label for="html">Perempuan</label><br>
+            </div><br>
+            <div class="checkbox">
+                <label for="hobi">Hobi:</label><br>
+                <input type="checkbox" id="hobi1" name="hobi1" value="Bersepeda">
+                <label for="hobi1"> Bersepeda</label><br>
+                <input type="checkbox" id="hobi2" name="hobi2" value="Berenang">
+                <label for="hobi2"> Berenang</label><br>
+                <input type="checkbox" id="hobi3" name="hobi3" value="Lari">
+                <label for="hobi3"> Lari</label><br>
+            </div><br>
+            <div class="combobox">
+                <label for="">Pendidikan saat ini:</label>
+                <select name="" id="">
+                    <option value="">SD</option>
+                    <option value="">SMP</option>
+                    <option value="">SMA</option>
+                    <option value="">Kuliah</option>
+                </select>
+            </div><br>
+            <div class="deskripsi">
+                <label for="">Deskripsikan diri anda secara singkat :</label><br>
+                <textarea name="" id="" cols="150" rows="10"></textarea>
+            </div><br>
+            <div class="verif">
+                <input type="checkbox" id="verif" name="verif" value="verif">
+                <label for="verif"> Saya menyetujui s&k yang berlaku pada aplikasi</label><br>
+            </div><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
